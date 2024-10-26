@@ -6,9 +6,10 @@ public class Player_movement : MonoBehaviour
 {
     public bool move = false;
     public int speed = 6;
+    public Animator animator;
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -17,6 +18,7 @@ public class Player_movement : MonoBehaviour
         if(move)
         {
             transform.Translate(Vector3.right * speed * Time.deltaTime);
+            animator.SetTrigger("walk");
         }
         if(Input.GetKeyDown(KeyCode.A))
         {
