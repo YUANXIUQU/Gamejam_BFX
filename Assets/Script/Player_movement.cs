@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,9 +7,12 @@ public class Player_movement : MonoBehaviour
 {
     public bool move = false;
     public int speed = 6;
+    Rigidbody2D rb;
+    Animator animator;
+
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -21,6 +25,7 @@ public class Player_movement : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.A))
         {
             move = true;
+            animator.SetFloat("xVelocity", MathF.Abs(rb.velocity.x));
         }
     }
 
