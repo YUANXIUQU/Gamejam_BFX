@@ -7,6 +7,7 @@ public class Player_movement : MonoBehaviour
     public bool move = false;
     public int speed = 6;
     public Animator animator;
+    
     void Start()
     {
         animator = GetComponent<Animator>();

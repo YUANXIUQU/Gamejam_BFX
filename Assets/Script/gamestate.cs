@@ -6,21 +6,35 @@ public class gamestate : MonoBehaviour // see if game continues or stop
 {
     public bool onwater = false;
     public bool onwood = false;
-    private int woodCounter = 0; 
+    private int woodCounter = 0;
+    public bool playsound = false;
+    public AudioSource walkboard;
 
+    void Start()
+    {
+       
+    }
     void Update()
     {
         if (onwater && onwood)
         {
             // game continues 
             Time.timeScale = 1;
+            if(!playsound)
+            {
+                walkboard.Play();
+                playsound = true;
+            }
         }
+        
         else if (onwater && !onwood)
         {
             // player is on water without wood
             Time.timeScale = 0;
             Debug.Log("Game paused!");
         }
+
+        
     }
 
     void OnTriggerEnter2D(Collider2D other)
