@@ -7,6 +7,9 @@ public class endpoint : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Time.timeScale = 0;
+        if (other.CompareTag("Player"))
+        { 
+            Time.timeScale = 0;
+        }
     }
 }
