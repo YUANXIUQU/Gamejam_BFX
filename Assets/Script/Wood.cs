@@ -9,9 +9,11 @@ public class Wood : MonoBehaviour
     public static bool createnext;
     public GameObject rock1;
     public GameObject rock2;
+    public AudioSource wood_settled;
     // Update is called once per frame
     void Start()
     {
+        
         stopmove = false;
         rock1.SetActive(false);
         rock2.SetActive(false);
@@ -24,6 +26,7 @@ public class Wood : MonoBehaviour
             createnext = true;
             rock1.SetActive(true);
             rock2.SetActive(true);
+            wood_settled.Play();
         }
         if(stopmove == false)
         {
