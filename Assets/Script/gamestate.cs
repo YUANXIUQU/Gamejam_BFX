@@ -7,23 +7,21 @@ public class gamestate : MonoBehaviour // see if game continues or stop
     public bool onwater = false;
     public bool onwood = false;
     private int woodCounter = 0;
-    public bool playsound = false;
+    public bool playwoodsound = false;
+    public bool playwatersound = false;
     public AudioSource walkboard;
+    public AudioSource inwater;
 
-    void Start()
-    {
-       
-    }
     void Update()
     {
         if (onwater && onwood)
         {
             // game continues 
             Time.timeScale = 1;
-            if(!playsound)
+            if(!playwoodsound)
             {
                 walkboard.Play();
-                playsound = true;
+                playwoodsound = true;
             }
         }
         
@@ -32,6 +30,12 @@ public class gamestate : MonoBehaviour // see if game continues or stop
             // player is on water without wood
             Time.timeScale = 0;
             Debug.Log("Game paused!");
+            if (!playwatersound)
+            {
+                inwater.Play();
+                playwatersound = true;
+                walkboard.Stop();
+            }
         }
 
         

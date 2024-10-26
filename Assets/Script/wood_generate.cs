@@ -10,7 +10,6 @@ public class wood_generate : MonoBehaviour
     void Start()
     {
         i = 0;
-        
     }
 
     // Update is called once per frame
