@@ -5,7 +5,7 @@ using UnityEngine;
 public class endpoint : MonoBehaviour
 {
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         { 
