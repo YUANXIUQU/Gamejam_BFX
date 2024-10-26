@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a1d60edf15c1cf846adfabee6a31106a
+guid: 7ed136a3b5f9c4b4eb27bbf15f38bfd0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WaterSprite_0
+      name: Water-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cefa211584df6ed41952ea88ac8282d2
-      internalID: 716616059
+      spriteID: b55a25f89f1bc5b44a8efab800dbe62e
+      internalID: 1337548674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaterSprite_1
+      name: Water-Sheet_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 64
         y: 0
-        width: 16
-        height: 16
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e03a7bdc7de2d3040bd51fd2eae57c60
-      internalID: 2044277015
+      spriteID: 0cd367ae92af5dc408cb4c19d8118a8e
+      internalID: -1751797028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaterSprite_2
+      name: Water-Sheet_2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 128
         y: 0
-        width: 16
-        height: 16
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4a3f1b5f5181cc409f95d6729b01201
-      internalID: 330038046
+      spriteID: 56302b933689ce944b831fe5f73ea794
+      internalID: -2057215255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaterSprite_3
+      name: Water-Sheet_3
       rect:
         serializedVersion: 2
-        x: 48
+        x: 192
         y: 0
-        width: 16
-        height: 16
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c5c9a5510d57424c8943158d573246f
-      internalID: 187000874
+      spriteID: 866d32710430a7742954e01cb663f074
+      internalID: 1795312345
       vertices: []
       indices: 
       edges: []
@@ -191,10 +191,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WaterSprite_0: 716616059
-      WaterSprite_1: 2044277015
-      WaterSprite_2: 330038046
-      WaterSprite_3: 187000874
+      Water-Sheet_0: 1337548674
+      Water-Sheet_1: -1751797028
+      Water-Sheet_2: -2057215255
+      Water-Sheet_3: 1795312345
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
