@@ -12,7 +12,7 @@ public class endpoint : MonoBehaviour
         if(endgame)
         {
             Time.timeScale = 0;
-            
+
         }
     }
     void OnTriggerEnter2D(Collider2D other)
