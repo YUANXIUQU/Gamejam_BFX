@@ -7,7 +7,7 @@ public class menu : MonoBehaviour
 {
     public void SrtTutorial()
     {
-        SceneManager.LoadSceneAsync(0);
+        SceneManager.LoadSceneAsync(6);
     }
     public void QuitGame()
     {
