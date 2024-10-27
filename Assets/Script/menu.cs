@@ -5,14 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class menu : MonoBehaviour
 {
-    public void PlayGame()
+    public void SrtTutorial()
     {
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync("Tutorial");
     }
-
     public void QuitGame()
     {
         Application.Quit();
     }
-
 }
