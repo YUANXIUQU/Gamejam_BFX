@@ -20,6 +20,7 @@ public class Wood : MonoBehaviour
     // Update is called once per frame
     void Start()
     {
+        createnext = false;
         num_stopmove = 0;
         stopmove = false;
         rock1.SetActive(false);
