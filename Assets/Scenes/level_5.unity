@@ -2103,10 +2103,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3811835255102419259, guid: 7252cf2fdc67a634c9d4b57b5d499ece, type: 3}
-      propertyPath: targetpos.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3811835255102419259, guid: 7252cf2fdc67a634c9d4b57b5d499ece, type: 3}
       propertyPath: targetpos.Array.data[0]
       value: 
       objectReference: {fileID: 481569701}
