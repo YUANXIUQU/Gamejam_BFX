@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class endpoint : MonoBehaviour
 {
@@ -17,7 +18,8 @@ public class endpoint : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             endgame = true;
-           
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(currentSceneIndex + 1);
         }
     }
 }
