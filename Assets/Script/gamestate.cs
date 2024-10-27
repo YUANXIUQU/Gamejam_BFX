@@ -30,10 +30,9 @@ public class gamestate : MonoBehaviour // see if game continues or stop
         {
             // player is on water without wood
             Time.timeScale = 0;
-            
+            lose_page.SetActive(true);
             if (!playwatersound)
             {
-                lose_page.SetActive(true);
                 inwater.Play();
                 playwatersound = true;
                 walkboard.Stop();

@@ -11,12 +11,14 @@ public class lose_page : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     public void Replay()
     {
+        Time.timeScale = 1;
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
         page.SetActive(false);
+        
+
     }
 
     public void backtoMenu()
