@@ -8,6 +8,6 @@ public class levelSelect : MonoBehaviour
     public int level;
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync("level_" + level.ToString());
+        SceneManager.LoadSceneAsync(level);
     }
 }
