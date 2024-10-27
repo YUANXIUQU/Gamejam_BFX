@@ -13,6 +13,10 @@ public class gamestate : MonoBehaviour // see if game continues or stop
     public AudioSource inwater;
     public GameObject lose_page;
 
+    void Start()
+    {
+        Time.timeScale = 1;
+    }
     void Update()
     {
         if (onwater && onwood)
