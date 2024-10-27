@@ -26,11 +26,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2784076980164037830, guid: 98c2f7a9684f57749a75406e2db61afe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.64
+      value: -7.57
       objectReference: {fileID: 0}
     - target: {fileID: 2784076980164037830, guid: 98c2f7a9684f57749a75406e2db61afe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.03
+      value: 2.15
       objectReference: {fileID: 0}
     - target: {fileID: 2784076980164037830, guid: 98c2f7a9684f57749a75406e2db61afe, type: 3}
       propertyPath: m_LocalPosition.z
@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 1634323824310344059}
+    - target: {fileID: 3673152926000717727, guid: 98c2f7a9684f57749a75406e2db61afe, type: 3}
+      propertyPath: targetpos.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8616833618259864038, guid: 98c2f7a9684f57749a75406e2db61afe, type: 3}
       propertyPath: m_Name
       value: Farmer Variant
@@ -118,6 +122,7 @@ MonoBehaviour:
   playwatersound: 0
   walkboard: {fileID: 0}
   inwater: {fileID: 0}
+  lose_page: {fileID: 0}
 --- !u!61 &3904018549772492034
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -150,7 +155,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0049704015, y: -0.4540963}
+  m_Offset: {x: -0.00758262, y: -0.4540963}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -161,7 +166,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5207282, y: 0.09442669}
+  m_Size: {x: 0.39707145, y: 0.09442669}
   m_EdgeRadius: 0
 --- !u!50 &2621814625805238690
 Rigidbody2D:
