@@ -26,4 +26,10 @@ public class info_page : MonoBehaviour
         SceneManager.LoadScene(0);
         page.SetActive(false);
     }
+
+    public void Loadnextscene()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex + 1);
+    }
 }

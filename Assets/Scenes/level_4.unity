@@ -638,6 +638,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8884521033024495426, guid: fb14d98ab9943f846997473954a8d8e7, type: 3}
   m_PrefabInstance: {fileID: 640494147}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &640494149 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5930876409631021554, guid: fb14d98ab9943f846997473954a8d8e7, type: 3}
+  m_PrefabInstance: {fileID: 640494147}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &881133167
 GameObject:
   m_ObjectHideFlags: 0
@@ -1106,6 +1111,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 76845949188935974, guid: 62f8a9c7123ff68418c7a280d5ce2d5c, type: 3}
+      propertyPath: end_level
+      value: 
+      objectReference: {fileID: 640494149}
     - target: {fileID: 576907128795373412, guid: 62f8a9c7123ff68418c7a280d5ce2d5c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.98
@@ -1567,7 +1576,6 @@ SceneRoots:
   - {fileID: 1924032382}
   - {fileID: 454624461}
   - {fileID: 1570291714}
-  - {fileID: 1623932002}
   - {fileID: 53304958}
   - {fileID: 1223271239}
   - {fileID: 1827726297}
@@ -1576,4 +1584,5 @@ SceneRoots:
   - {fileID: 1405022320}
   - {fileID: 640494147}
   - {fileID: 613430331}
+  - {fileID: 1623932002}
   - {fileID: 3731213006549959638}

@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class endpoint : MonoBehaviour
 {
+    public GameObject end_level;
     public bool endgame = false;
    
     void Update()
@@ -20,13 +21,9 @@ public class endpoint : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             endgame = true;
-            Loadnextscene();
+            end_level.SetActive(true);
         }
     }
 
-    void Loadnextscene()
-    {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex + 1);
-    }
+    
 }
